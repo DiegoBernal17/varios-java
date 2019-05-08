@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=CursorTest()
+comment2.params=ev
+comment2.target=void\ mouseEntered(java.awt.event.MouseEvent)
+comment3.params=ev
+comment3.target=void\ mouseExited(java.awt.event.MouseEvent)
+numComments=4

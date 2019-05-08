@@ -1,0 +1,123 @@
+
+import java.awt.*;
+import java.applet.Applet;
+public class Raza extends Applet
+{
+public void paint(Graphics g)
+{
+        //Barco 1//
+        g.setColor(new Color(163,83,0));//color cafe
+        g.fillArc (140,363,150,50,165,180); //1/
+        g.fillRect(165,390,150,24);//base//
+        g.fillArc (240,340,100,80,300,60);// 
+        g.fillRect(240,239,5,150);//rect 1//
+        g.fillRect(240,369,100,5);//rect 2//
+        //g.drawRect(240,90,30,5);// rect3//
+        g.setColor(Color.red);
+        g.fillArc (220,240,70,260,0,100);
+        g.setColor(Color.red);
+        g.fillArc (142,270,200,192,90,100);//vela
+        g.setColor(Color.white);
+        g.fillRect(200,300,5,37);
+        g.fillRect(183,318,37,5);
+        
+        //Barco 2//
+       g.setColor(new Color(163,83,0));//color cafe
+       g.fillArc(600,363,150,50,165,180);//1//
+       g.fillRect(620,390,150,24);//base//
+       g.fillArc(700,340,94,80,300,60);
+       g.fillRect(700,239,5,150);// rect 1
+       g.fillRect(700,369,100,5);//rect 2
+       g.setColor(Color.red);
+       g.fillArc(680,240,70,260,0,100);//vela chica
+       g.setColor(Color.white);
+       g.fillRect(723,285,5,20);
+       g.fillRect(716,293,20,5);
+       g.setColor(Color.red);
+       g.fillArc(601,270,200,192,90,100); //vela//
+      
+    
+       //cristobal Colon//
+       
+       g.setColor(Color.pink);
+       g.fillArc(995,400,60,70,180,-180);//cara
+       g.fillArc(995,400,60,70,180,180);//cara
+       g.setColor(Color.black);
+       g.fillOval(1039,428,5,5);// pupila
+       g.setColor(Color.black);
+       g.drawOval(1028,425,19,10);// ojo
+       g.setColor(Color.black);
+       g.drawArc(1027,416,19,10,180,-180);//ceja
+       
+       
+       //SOMBRERO//
+       g.fillArc(985,350,40,90,215,-215);
+       g.fillOval(1017,383,20,18);
+       g.fillOval(982,410,24,18);
+       g.fillOval(1010,384,20,18);
+       g.fillOval(1000,386,20,18);
+       g.fillOval(995,379,20,28);
+       g.fillOval(990,384,20,28);
+       g.fillOval(985,389,20,28);
+       
+       
+       
+       
+       //CUERPO//
+       g.setColor(Color.red);
+       g.fillRect(998,470,50,90);
+       g.setColor(Color.gray);
+       g.fillOval(990,470,30,30); //hombro der
+       g.setColor(Color.yellow);
+       g.fillOval(993,475,7,18);
+       g.fillOval(1005,475,7,18);
+       //g.setColor(Color.gray);
+       //g.fillArc(1045,468,20,20,130,-360);
+       
+       
+       //BRAZOS//
+       g.setColor(Color.gray);
+       g.drawArc(1017,480,60,30,180,-180);
+       
+       
+       //PIERNAS//
+       g.setColor(Color.black);
+       g.drawRect(1005,580,15,60);
+       g.drawRect(1020,580,10,53);
+       
+       g.setColor(Color.black);
+       g.fillOval(1020,625,20,10);
+       
+       //g.drawRect(1005,615,15,25);
+       
+       
+       
+       //g.fillArc(998,585,20,70,270,-155);
+       
+       
+       
+       
+       
+       //PANTALON//
+       g.setColor(new Color(163,83,0));//color cafe
+       g.fillArc(1020,530,30,60,-180,180);
+       g.fillArc(995,530,30,60,-180,180);
+       
+       
+       
+       
+       
+       
+       
+      
+     
+       
+       
+      
+    
+    
+    
+    
+    
+    
+}}

@@ -1,0 +1,48 @@
+
+import java.awt.*;
+import java.applet.Applet;
+import javax.swing.JCheckBox;
+import java.awt.event.*;
+
+public class EventTasa extends Applet implements ActionListener
+{
+   private JCheckBox nina,pinta,santaMaria;
+   private int seleccion = 0;
+    public void init()
+    {
+      nina = new JCheckBox (" La Niña"); 
+      add(nina);
+      nina.addActionListener(this);
+      pinta = new JCheckBox ("La Pinta "); 
+      add(pinta);
+      pinta.addActionListener(this);
+      santaMaria= new JCheckBox (" La santa Maria"); 
+      add(santaMaria);
+      santaMaria.addActionListener(this);
+   }
+    public void paint (Graphics g)
+   {
+     if(seleccion == 1){
+       
+        }
+     if(seleccion == 2){
+       
+        } 
+     if(seleccion == 3){
+        
+   }
+   
+   public void actionPerformed(ActionEvent event){
+       
+        if(event.getSource() == nina){
+            seleccion = 1; 
+        }
+        if(event.getSource() == pinta){
+            seleccion = 2;
+        }
+        if(event.getSource() == santaMaria){
+            seleccion = 3;
+        }
+        repaint();
+    }
+}
